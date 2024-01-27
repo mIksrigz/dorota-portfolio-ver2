@@ -1,3 +1,7 @@
-// import { videos } from "./modules/toJson.js";
+import * as startingElements from './modules/startingElements.js';
+import * as data from './modules/data.js';
+import * as renderElements from './modules/renderElements.js';
 
-// console.log(JSON.stringify(videos));
+
+renderElements.renderVideoSection(startingElements.videos, data.videos);
+renderElements.renderPublicationSection(startingElements.publications, data.publications);

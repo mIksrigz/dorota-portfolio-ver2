@@ -1,6 +1,4 @@
-export {videos, publications};
-
-const videos = [
+export const videos = [
     {
         'embedLink': '<iframe width="999" height="562" src="https://www.youtube.com/embed/MqWBrrFFpZA" title="WYKŁAD I &quot;SZTUKA może być POWIETRZEM&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
         'title': 'WYKŁAD I "SZTUKA może być POWIETRZEM"',
@@ -16,68 +14,68 @@ const videos = [
         
         Patronat: Akademia Sztuk Pięknych w Gdańsku, Polski Instytut Studiów nad Sztuką Świata, Państwowa Galeria Sztuki w Sopocie, Instytut Kultury Miejskiej w Gdańsku`
     },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
-    {
-        'embedLink': '',
-        'title': '' ,
-        'description': ``
-    },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
+    // {
+    //     'embedLink': '',
+    //     'title': '' ,
+    //     'description': ``
+    // },
 ];
-const publications = [
+export const publications = [
     {
         'title': 'Elżbieta Grubba z Anna Jarnuszkiewicz: "Krystian Jarnuszkiewicz - Kamienny sen pod dębem", Red. Halina Gajewska, "Kwartalnik Rzeźby OROŃSKO" 2014_ nr 1-2, s.71-74',
         'author': 'Dorota Grubba',
@@ -100,67 +98,67 @@ const publications = [
         – Ciche opowiadania. (...) Krystian Jarnuszkiewicz mówił m.in. : (…) Asfalt, to jest naturalna wydzielina naszego globu, (…) minerał. (…) Bryła asfaltu wydobyta na zewnątrz, w atmosferze naszej europejskiej, ale i również w afrykańskich temperaturach – nie zmienia swojego kształtu. Można ją polerować...(...) W bryle asfaltu, którą mam w ogródku powstają spękania. Próbuję „osaczyć tą czerń” wprowadzając w tą strukturę spękań czarne klisze, przezroczystości (...) Nie tyle jest pytanie, jak się robi sztukę, ale jakie warsztaty można używać, żeby mieć sztukę za pan brat i zacząć dopiero tworzyć...".`,
         'url': 'https://www.academia.edu/81279237/El%C5%BCbieta_Grubba_z_Anna_Jarnuszkiewicz_Krystian_Jarnuszkiewicz_Kamienny_sen_pod_d%C4%99bem_Red_Halina_Gajewska_Kwartalnik_Rze%C5%BAby_ORO%C5%83SKO_2014_nr_1_2_s_71_74'
     },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
-    {
-        'title': '',
-        'author': '',
-        'date': '',
-        'description': ``,
-        'url': ''
-    },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
+    // {
+    //     'title': '',
+    //     'author': '',
+    //     'date': '',
+    //     'description': ``,
+    //     'url': ''
+    // },
 ];

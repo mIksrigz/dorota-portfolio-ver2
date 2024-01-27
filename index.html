@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <script type="module" src="main.js"></script>
 </head>
 
@@ -30,7 +31,12 @@
         </div>
     </header>
     <main id="main" class="main">
-        <div id="about" class="about"></div>
+        <div id="about" class="about">
+            <picture id="aboutImg" class="aboutImg">
+                <source srcset="images/dorota-grubba-thiede-desktop.jpg" media="(min-width: 600px)">
+                <img src="images/dorota-grubba-thiede-mobile.jpg" alt="">
+            </picture>
+        </div>
         <div id="publications" class="publications"></div>
         <div id="videos" class="videos"></div>
         <div id="links" class="links"></div>
