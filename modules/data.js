@@ -150,6 +150,16 @@ export const videos = [
         'title': 'Wykład XIII - "wszystko jest zegarem słonecznym" Irena Zabrocka',
         'description': ``
     },
+    {
+        'embedLink': '<iframe width="640" height="360" src="https://www.youtube.com/embed/z4UrS9xvAm4" title="Wykład XIV - &quot;Les magiciens de la terre&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        'title': 'Wykład XIV - "Les magiciens de la terre"',
+        'description': ``
+    },
+    {
+        'embedLink': '<iframe width="532" height="247" src="https://www.youtube.com/embed/JBkxMHH8QXY" title="Wykład XV - &quot;Poezja geometrycznych wykluczeń&quot; Roman Bromboscz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        'title': 'Wykład XV - "Poezja geometrycznych wykluczeń" Roman Bromboscz',
+        'description': ``
+    },
     // {
     //     'embedLink': '',
     //     'title': '' ,
@@ -282,3 +292,15 @@ export const publications = [
 ];
 
 /* Make short description here */
+
+export const shortVideoDescriptions = [];
+const maxLength = 200;
+videos.forEach(video => {
+    let shortDescription;
+    if (video.description.length > maxLength) {
+        shortDescription = video.description.substring(0, maxLength);
+    } else {
+        shortDescription = video.description;
+    }
+    shortVideoDescriptions.push({ shortDescription: shortDescription });
+});
