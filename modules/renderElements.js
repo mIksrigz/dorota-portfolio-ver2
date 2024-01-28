@@ -49,29 +49,36 @@ export function renderPublicationSection(parentElement, renderingData) {
         const publicationAuthor = document.createElement('p');
         const publicationDate = document.createElement('p');
         const publicationDescription = document.createElement('p');
+        const publicationLink = document.createElement('a');
 
         publicationTitle.innerText = `${object.title}`;
         publicationAuthor.innerText = `${object.author}`;
         publicationDate.innerText = `${object.date}`;
         publicationDescription.innerText = `${object.description}`;
+        publicationLink.innerText = 'Żródło';
 
         publicationContainer.setAttribute('id', `publicationContainer${index + 1}`);
         publicationTitle.setAttribute('id', `publicationTitle${index + 1}`);
         publicationAuthor.setAttribute('id', `publicationAuthor${index + 1}`);
         publicationDate.setAttribute('id', `publicationDate${index + 1}`);
         publicationDescription.setAttribute('id', `publicationDescription${index + 1}`);
+        publicationLink.setAttribute('id', `publicationLink${index + 1}`);
+        publicationLink.setAttribute('href', `${object.url}`);
+        publicationLink.setAttribute('target', '_blank');
 
         publicationContainer.classList.add('publicationContainer');
         publicationTitle.classList.add('publicationTitle');
         publicationAuthor.classList.add('publicationAuthor');
         publicationDate.classList.add('publicationDate');
         publicationDescription.classList.add('publicationDescription');
+        publicationLink.classList.add('publicationLink');
 
         publicationsWrapper.append(publicationContainer);
         publicationContainer.append(publicationTitle);
         publicationContainer.append(publicationAuthor);
         publicationContainer.append(publicationDate);
         publicationContainer.append(publicationDescription);
+        publicationContainer.append(publicationLink);
 
     });
 

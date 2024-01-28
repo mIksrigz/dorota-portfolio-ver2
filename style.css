@@ -63,8 +63,134 @@ h6 {
 }
 
 
+/*******
+                                 general
+                                 ******/
+
+.section {
+    scroll-margin: 8rem;
+}
+
+
 /******
                                  header
                                  ******/
 
 
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: black;
+}
+
+.navContainer {
+    width: 95%;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.nav {
+    color: white;
+    font-size: 1rem;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.navListItem {}
+
+.navLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink:hover {
+    opacity: 0.8;
+}
+
+
+/****
+                                 main
+                                 ****/
+
+
+.main {
+    width: 95%;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+
+/*****
+                                 about
+                                 *****/
+
+
+.about {
+    margin-bottom: 5rem;
+}
+
+.aboutImg {
+    margin-inline: auto;
+    margin-bottom: 1rem;
+}
+
+.aboutText {}
+
+.aboutTitle {
+    font-size: 2.25rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+
+/************
+                                 publications
+                                 ***********/
+
+
+.publications {}
+
+.publicationsWrapper {}
+
+.publicationContainer {
+    margin-bottom: 2rem;
+}
+
+.publicationTitle {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.publicationAuthor {}
+
+.publicationDate {}
+
+.publicationDescription {}
+
+.publicationLink {}
+
+/*************
+                                 media queries
+                                 *************/
+
+
+@media(min-width: 800px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .publicationsWrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 4rem;
+    }
+}

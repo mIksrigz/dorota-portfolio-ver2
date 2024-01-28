@@ -6,6 +6,7 @@ export const navListItems = navList.querySelectorAll('.navListItem');
 export const navLinks = navList.querySelectorAll('.navLink');
 
 export const main = document.querySelector('#main');
+export const allSections = main.querySelectorAll('.section');
 export const about = document.querySelector('#about');
 export const publications = document.querySelector('#publications');
 export const videos = document.querySelector('#videos');
