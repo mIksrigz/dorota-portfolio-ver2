@@ -1,12 +1,12 @@
 :root {
-    /*hamburger menu*/
-    --bar-width: 60px;
-    --bar-height: 8px;
-    --hamburger-gap: 6px;
-    --foreground: #333;
-    --background: white;
-
-    --background-color: #030303;
+    --background-color-darkMode: hsl(231, 47%, 4%);
+    --font-color-darkMode: hsl(44, 15%, 92%);
+    --background-color-lightMode: hsl(44, 15%, 92%);
+    --nav-bar-background-color-lightMode: hsl(231, 47%, 4%);
+    --nav-bar-font-color-lightMode: hsl(44, 15%, 92%);
+    --footer-background-color-lightMode: var(--nav-bar-background-color-lightMode);
+    --footer-font-color-lightMode: var(--nav-bar-font-color-lightMode);
+    --font-color-lightMode: hsl(231, 47%, 4%);
 }
 
 
@@ -66,9 +66,16 @@ h6 {
 /*******
                                  general
                                  ******/
+body {
+    /* background: var(--background-color-darkMode);
+    color: var(--font-color-darkMode); */
+    background: var(--background-color-lightMode);
+    color: var(--font-color-lightMode);
+}
 
 .section {
     scroll-margin: 8rem;
+    padding-top: 3rem;
 }
 
 
@@ -81,24 +88,26 @@ h6 {
     position: sticky;
     top: 0;
     z-index: 10;
-    background: black;
+    background: var(--nav-bar-background-color-lightMode);
+    color: var(--nav-bar-font-color-lightMode);
+    opacity: 0.9;
 }
 
 .navContainer {
     width: 95%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin-inline: auto;
 }
 
 .nav {
-    color: white;
     font-size: 1rem;
 }
 
 .navList {
     list-style: none;
-    padding: 0;
+    padding: 0.5rem 0;
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -119,11 +128,7 @@ h6 {
                                  ****/
 
 
-.main {
-    width: 95%;
-    max-width: 1000px;
-    margin-inline: auto;
-}
+.main {}
 
 
 /*****
@@ -133,6 +138,12 @@ h6 {
 
 .about {
     margin-bottom: 5rem;
+}
+
+.aboutWrapper {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
 }
 
 .aboutImg {
@@ -156,9 +167,15 @@ h6 {
 
 .publications {}
 
-.publicationsWrapper {}
+.publicationsWrapper {
+    margin-inline: auto;
+    max-width: 1200px;
+    width: 95%;
+}
 
 .publicationContainer {
+    max-width: 60ch;
+    margin-inline: auto;
     margin-bottom: 2rem;
 }
 
@@ -176,21 +193,123 @@ h6 {
 
 .publicationLink {}
 
+
+/******
+                                 videos
+                                 ******/
+
+.videos {}
+
+.videosWrapper {
+    margin-inline: auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.videoContainer {
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    max-width: 60ch;
+}
+
+.videoContainer iframe {
+    max-height: 34ch;
+    margin-bottom: 1rem;
+}
+
+.videoTitle {
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.videoDescription {
+    font-size: 0.8125rem;
+}
+
+.videoShowMore {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.videoShowMore:hover {
+    opacity: 1;
+}
+
+/******
+                                 footer
+                                 ******/
+
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    background: var(--footer-background-color-lightMode);
+    color: var(--footer-font-color-lightMode);
+    opacity: 0.9;
+}
+
+.footerContainer {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.footerList {
+    list-style: none;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerLink:hover {
+    opacity: 0.8;
+}
+
 /*************
                                  media queries
                                  *************/
 
 
-@media(min-width: 800px) {
-    .about {
+@media(min-width: 1000px) {
+
+    .navList {
+        font-size: 1.125rem;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .about {}
+
+    .aboutWrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
         gap: 2rem;
+    }
+
+
+    .aboutTitle {
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 1rem;
     }
 
     .publicationsWrapper {
         display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 4rem;
+        grid-template-columns: 1fr 1fr;
+        gap: calc(2.5rem + 2vw);
+    }
+
+    .videosWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: calc(2.5rem + 2vw);
     }
 }
