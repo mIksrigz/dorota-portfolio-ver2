@@ -16,7 +16,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="999" height="562" src="https://www.youtube.com/embed/N8fvFVAx-oI" title="WYKŁAD II &quot;OTWIERANIE PRZESTRZENI&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD II "OTWIERANIE PRZESTRZENI"' ,
+        'title': 'WYKŁAD II "OTWIERANIE PRZESTRZENI"',
         'description': `- O obecności pokojowych idei Katarzyny Kobro w horyzoncie współczesnych działań artystek i artystów. Kontekst wystawy:
         MEDYTACJE FIBONACCIEGO + sztruksowy zając | wobec Katarzyny Kobro (1898-1951)
         KRZYSZTOF M. BEDNARSKI + ANNA KONIK/ JAN BERDYSZAK/ JOSEPH BEUYS/ GERHARD BLUM-KWIATKOWSKI + KARINA DZIEWECZYŃSKA + PIOTR GRDEŃ/ HANNA BRZUSZKIEWICZ/ TATIANA CZEKALSKA + LESZEK GOLEC/ WANDA CZEŁKOWSKA/ WITOSŁAW CZERWONKA + LESZEK BROGOWSKI/ WANDA GOŁKOWSKA/ NICOLAS GROSPIERRE/ IZABELLA GUSTOWSKA/ EMILIA GRUBBA/ JERZY GRZEGORSKI/ MARIA JAREMA/ SYLWIA JAKUBOWSKA/ ANNA JARNUSZKIEWICZ + KRYSTIAN JARNUSZKIEWICZ + KATARZYNA A. JARNUSZKIEWICZ + [K]RYSTIAN JARNUSZKIEWICZ/ KATARZYNA KOBRO/ JAROSŁAW KOZAKIEWICZ/ MONIKA KRYGIER + STEFAN KRYGIER + WŁODZIMIERZ PIETRZYK/ AURELIA MANDZIUK-ZAJĄCZKOWSKA + ALICJA KUJAWSKA/ EDWARD KRASIŃSKI/ SŁAWOMIR LIPNICKI + ANNA ZELMAŃSKA-LIPNICKA/ ANDRZEJ MITAN/ JERZY MIZERA + MAREK SAREŁŁO/ ANITA OBORSKA-ORACZ/
@@ -45,7 +45,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/1cAOTrXr0JQ" title="WYKŁAD IV &quot;TAK - chciałam zobaczyć śnieg padający do góry [...]&quot; - afirmatywność sztuki" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD IV "TAK - chciałam zobaczyć śnieg padający do góry [...]" - afirmatywność sztuki' ,
+        'title': 'WYKŁAD IV "TAK - chciałam zobaczyć śnieg padający do góry [...]" - afirmatywność sztuki',
         'description': `"Kształty jako strefy Znaczeń"- interdyscyplinarne, bogato ilustrowane wykłady
         o sztuce współczesnej dr. Doroty Grubba-Thiede zrealizowane w ramach programu stypendialnego Ministra Kultury i Dziedzictwa Narodowego „Kultura w Sieci” 2020 
         
@@ -53,7 +53,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/fIZziUV9R2A" title="WYKŁAD V [&quot;Materia całego świata jest materią sztuki: Witosław Czerwonka i Inn.&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD V ["Materia całego świata jest materią sztuki: Witosław Czerwonka i Inn."' ,
+        'title': 'WYKŁAD V ["Materia całego świata jest materią sztuki: Witosław Czerwonka i Inn."',
         'description': `WYKŁAD V [29 IX 2020, g. 18.00-20.00]
         „Materia całego świata jest materią sztuki” WITOSŁAW CZERWONKA, ACHILLE MBEMBE, AYANO SHIBATA, DANUTA ĆWIRKO-GODYCKA, KOJI KAMOJI, KRZYSZTOF M. BEDNARSKI + ANNA KONIK/ JAN BERDYSZAK/ JOSEPH BEUYS/ HANNA BRZUSZKIEWICZ/ TATIANA CZEKALSKA + LESZEK GOLEC/ NICOLAS GROSPIERRE/ EMILIA GRUBBA/ JERZY GRZEGORSKI/ SYLWIA JAKUBOWSKA/ ANNA + KRYSTIAN JARNUSZKIEWICZ + KATARZYNA A. JARNUSZKIEWICZ + [K]RYSTIAN JARNUSZKIEWICZ/ KATARZYNA KOBRO/ JAROSŁAW KOZAKIEWICZ/ MONIKA KRYGIER + STEFAN KRYGIER + WŁODZIMIERZ PIETRZYK/ AURELIA MANDZIUK-ZAJĄCZKOWSKA + ALICJA KUJAWSKA/ EDWARD KRASIŃSKI/ SŁAWOMIR LIPNICKI + ANNA ZELMAŃSKA-LIPNICKA/ ANDRZEJ MITAN/ JERZY MIZERA + MAREK SAREŁŁO/ ANITA OBORSKA-ORACZ/ ROMAN PNIEWSKI/ KATARZYNA PODPORA/ JOZEF ROBAKOWSKI + JANUSZ ZAGRODZKI/ ROBERT RUMAS + ZBIGNIEW LIBERA/ HENRYK WICIŃSKI/ ANDRZEJ WOJCIECHOWSKI + STANISŁAW DRÓŻDŻ/ IWONA TEODORCZUK-MOŻDŻYŃSKA/ AGNIESZKA ZGIRSKA/ DOBROCHNA SURAJEWSKA + ANDRZEJ KAROLEWICZ/ WACŁAW SZPAKOWSKI/ LUDMIŁA STEHNOVA/ AGATA ZIELIŃSKA-GŁOWACKA/ MARTA BRANICKA / MIKOŁAJ ROBERT JURKOWSKI / JOANNA GUGAŁA-PONIKOWSKA/ JACEK STANISZEWSKI/ KRZYSZTOF WRÓBLEWSKI / MACIEJ SIEŃKOWSKI / LEON PODSIADŁY / URSZULA ŚLIZ, SOFI ŻEZMER, i Inn.
         
@@ -64,7 +64,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/Uk6Rk43l_MY" title="WYKŁAD VI &quot;Bezinteresowność jest skupieniem&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD VI "Bezinteresowność jest skupieniem"' ,
+        'title': 'WYKŁAD VI "Bezinteresowność jest skupieniem"',
         'description': `WYKŁAD VI [6 X 2020, g. 18.00-20.00]
         „BEZINTERESOWNOŚĆ JEST SKUPIENIEM” Leszek Brogowski, Józef Robakowski, Ewa Zarzycka, Wojciech Ciesielski, Wojciech Zamiara, Grzegorz Klaman, Hubert Renard/ Laurent Marissal/ Lefevre Jean Claude/ Eric Watier/ Pascal Le Coq/ Stéphane Le Mercier/ Peter Downsbrough/ herman de vries/ Bruno Di Rosa/ Bernard Villers/ Létaris / Ernest T. / Taroop et Glabel i Inni
         na plakacie: Anna i Krystian Jarnuszkiewicz, Formy kinetyczne emitowane w Telewizji Polskiej między programami, 1965, Fot.A+K. Jarnuszkiewicz.
@@ -77,7 +77,7 @@ export const videos = [
     },
     {
         'embedLink': `<iframe width="744" height="419" src="https://www.youtube.com/embed/7XdLhlVv7zY" title="WYKŁAD VII &quot;PARAMETRY PRZESTRZENI PUBLICZNEJ&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
-        'title': 'WYKŁAD VII "PARAMETRY PRZESTRZENI PUBLICZNEJ"' ,
+        'title': 'WYKŁAD VII "PARAMETRY PRZESTRZENI PUBLICZNEJ"',
         'description': `„PARAMETRY PRZESTRZENI PUBLICZNEJ”
         Tanaka Atsuko, Siah Armajani, Waldemar Raniszewski, Wiktor Gutt, Monica Bonvicini, Agnieszka Kalinowska, Leszek Brogowski, Józef Robakowski, Ewa Zarzycka, Danuta Ćwirko-Godycka+ Flora Ćwirko+ Jan Maurycy Adamski, Małgorzata Skałbania, Anna Królikiewicz, Anna Konik, Andrzej Ciesielski, Wojciech Zamiara, Grzegorz Klaman, Jarosław Lubiak + Kamil Kuskowski, Hubert Renard/ Laurent Marissal/ Lefevre Jean Claude/ Eric Watier/ Pascal Le Coq/ Stéphane Le Mercier/ Peter Downsbrough/ Herman de Vries/ Bruno Di Rosa/ Bernard Villers/ Létaris / Ernest T. / Taroop et Glabel, Joanna Gugała-Ponikowska, Stefan Wegner, Stanisław Dróżdż +Andrzej Wojciechowski, Jerzy Ludwiński, Edward Krasiński, Nicolas Grospierre + Olga Mokrzycka, Inni
         
@@ -88,7 +88,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/_UghUlRAMoE" title="WYKŁAD VIII &quot;ECOVENTION (cz.1)- Artyści na rzecz ekologicznego horyzontu mentalnego&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD VIII "ECOVENTION (cz.1)- Artyści na rzecz ekologicznego horyzontu mentalnego"' ,
+        'title': 'WYKŁAD VIII "ECOVENTION (cz.1)- Artyści na rzecz ekologicznego horyzontu mentalnego"',
         'description': `WYKŁAD VIII [20 X 2020 g. 18.00-20.00]
         „Ecovention – artyści na rzecz ekologicznego horyzontu mentalnego: tatiana czekalska + leszek golec, dorota Łagodzka, Amy Lipton oraz Sue Spaid, Holly Block, Issa Samb, Antje Majewski, Agnieszka Brzeżańska, Ewa Ciepielewska, Cecylia Malik, Carolina Caycedo, Paweł Freisler, Olivier Guesselé-Garai, Tamás Kaszás, Paulo Nazareth, Guarani-Kaiowa& Luciana de Oliveira, Xu Tan, Hervé Yamguen, Bloom Collective (Erik Griswold, Vanessa Tomlinson, Renata Buziak, Vicki Kelleher, Jan Baker-Finch) i Inn.
         „Wrogościnność jest pojęciem utworzonym przez Jacquesa Derridę dla ukazania tego, jak ściśle gościnność jest połączona z wrogością. Termin zdaje się być szczególnie pomocny dla opisania sposobu, w jaki traktuje się imigrantów, niezależnie od tego czy ich pobyt jest legalny czy nie. Udzielana im bywa gościna, podszyta jednak nieustanną nieufnością, która tak łatwo zmienia się we wrogość. Wrogościnność. Podejmowanie obcych to projekt artystycznych działań, które podejmują kwestię sytuacji imigrantów, czy szerzej relację do obcości. Stosunek do obcości zdaje się czynić z migracji — obecnie przecież kluczowego czynnika transformacji życia — jeden z najbardziej istotnych i trudnych problemów, z jakimi borykają się współczesne społeczeństwa” Jarosław Lubiak, Kamil Kuskowski 2010. 
@@ -101,7 +101,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/XwhzBgLXdf4" title="WYKŁAD VIII &quot;ECOVENTION (cz.2)- Artyści na rzecz ekologicznego horyzontu mentalnego&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD VIII "ECOVENTION (cz.2)- Artyści na rzecz ekologicznego horyzontu mentalnego"' ,
+        'title': 'WYKŁAD VIII "ECOVENTION (cz.2)- Artyści na rzecz ekologicznego horyzontu mentalnego"',
         'description': `WYKŁAD VIII [20 X 2020 g. 18.00-20.00]
         „Ecovention – artyści na rzecz ekologicznego horyzontu mentalnego: tatiana czekalska + leszek golec, dorota Łagodzka, Amy Lipton oraz Sue Spaid, Holly Block, Issa Samb, Antje Majewski, Agnieszka Brzeżańska, Ewa Ciepielewska, Cecylia Malik, Carolina Caycedo, Paweł Freisler, Olivier Guesselé-Garai, Tamás Kaszás, Paulo Nazareth, Guarani-Kaiowa& Luciana de Oliveira, Xu Tan, Hervé Yamguen, Bloom Collective (Erik Griswold, Vanessa Tomlinson, Renata Buziak, Vicki Kelleher, Jan Baker-Finch) i Inn.
         „Wrogościnność jest pojęciem utworzonym przez Jacquesa Derridę dla ukazania tego, jak ściśle gościnność jest połączona z wrogością. Termin zdaje się być szczególnie pomocny dla opisania sposobu, w jaki traktuje się imigrantów, niezależnie od tego czy ich pobyt jest legalny czy nie. Udzielana im bywa gościna, podszyta jednak nieustanną nieufnością, która tak łatwo zmienia się we wrogość. Wrogościnność. Podejmowanie obcych to projekt artystycznych działań, które podejmują kwestię sytuacji imigrantów, czy szerzej relację do obcości. Stosunek do obcości zdaje się czynić z migracji — obecnie przecież kluczowego czynnika transformacji życia — jeden z najbardziej istotnych i trudnych problemów, z jakimi borykają się współczesne społeczeństwa” Jarosław Lubiak, Kamil Kuskowski 2010. 
@@ -114,7 +114,7 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/fehRu-R0zd8" title="WYKŁAD VIII &quot;ECOVENTION (cz.3)- Artyści na rzecz ekologicznego horyzontu mentalnego&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'WYKŁAD VIII "ECOVENTION (cz.3)- Artyści na rzecz ekologicznego horyzontu mentalnego"' ,
+        'title': 'WYKŁAD VIII "ECOVENTION (cz.3)- Artyści na rzecz ekologicznego horyzontu mentalnego"',
         'description': `WYKŁAD VIII [20 X 2020 g. 18.00-20.00]
         „Ecovention – artyści na rzecz ekologicznego horyzontu mentalnego: tatiana czekalska + leszek golec, dorota Łagodzka, Amy Lipton oraz Sue Spaid, Holly Block, Issa Samb, Antje Majewski, Agnieszka Brzeżańska, Ewa Ciepielewska, Cecylia Malik, Carolina Caycedo, Paweł Freisler, Olivier Guesselé-Garai, Tamás Kaszás, Paulo Nazareth, Guarani-Kaiowa& Luciana de Oliveira, Xu Tan, Hervé Yamguen, Bloom Collective (Erik Griswold, Vanessa Tomlinson, Renata Buziak, Vicki Kelleher, Jan Baker-Finch) i Inn.
         „Wrogościnność jest pojęciem utworzonym przez Jacquesa Derridę dla ukazania tego, jak ściśle gościnność jest połączona z wrogością. Termin zdaje się być szczególnie pomocny dla opisania sposobu, w jaki traktuje się imigrantów, niezależnie od tego czy ich pobyt jest legalny czy nie. Udzielana im bywa gościna, podszyta jednak nieustanną nieufnością, która tak łatwo zmienia się we wrogość. Wrogościnność. Podejmowanie obcych to projekt artystycznych działań, które podejmują kwestię sytuacji imigrantów, czy szerzej relację do obcości. Stosunek do obcości zdaje się czynić z migracji — obecnie przecież kluczowego czynnika transformacji życia — jeden z najbardziej istotnych i trudnych problemów, z jakimi borykają się współczesne społeczeństwa” Jarosław Lubiak, Kamil Kuskowski 2010. 
@@ -127,27 +127,27 @@ export const videos = [
     },
     {
         'embedLink': '<iframe width="744" height="419" src="https://www.youtube.com/embed/zNN_tSnexWI" title="Wykład IX - Formy kinetyczne emitowane w Telewizji Polskiej między programami" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'Wykład IX - Formy kinetyczne emitowane w Telewizji Polskiej między programami' ,
+        'title': 'Wykład IX - Formy kinetyczne emitowane w Telewizji Polskiej między programami',
         'description': ``
     },
     {
         'embedLink': '<iframe width="744" height="345" src="https://www.youtube.com/embed/Gc5z2kwqGBQ" title="Wykład X - &quot;Walczę o Kobiety w Nich Samych&quot; Wanda Czełkowska" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'Wykład X - "Walczę o Kobiety w Nich Samych" Wanda Czełkowska' ,
+        'title': 'Wykład X - "Walczę o Kobiety w Nich Samych" Wanda Czełkowska',
         'description': ``
     },
     {
         'embedLink': '<iframe width="744" height="347" src="https://www.youtube.com/embed/qx8mMx93-j0" title="Wykład XI - &quot;Poezja geometrycznych wykluczeń&quot; Roman Bromboszcz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'Wykład XI - "Poezja geometrycznych wykluczeń" Roman Bromboszcz' ,
+        'title': 'Wykład XI - "Poezja geometrycznych wykluczeń" Roman Bromboszcz',
         'description': ``
     },
     {
         'embedLink': '<iframe width="744" height="401" src="https://www.youtube.com/embed/5JXIPVWWW9g" title="Wykład XII - &quot;Les magiciens de la terre&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'Wykład XII - "Les magiciens de la terre"' ,
+        'title': 'Wykład XII - "Les magiciens de la terre"',
         'description': ``
     },
     {
         'embedLink': '<iframe width="1062" height="495" src="https://www.youtube.com/embed/cFUDx0faHsI" title="Wykład XIII - &quot;wszystko jest zegarem słonecznym&quot; Irena Zabrocka" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        'title': 'Wykład XIII - "wszystko jest zegarem słonecznym" Irena Zabrocka' ,
+        'title': 'Wykład XIII - "wszystko jest zegarem słonecznym" Irena Zabrocka',
         'description': ``
     },
     // {
@@ -280,3 +280,5 @@ export const publications = [
     //     'url': ''
     // },
 ];
+
+/* Make short description here */
